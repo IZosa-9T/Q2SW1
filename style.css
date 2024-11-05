@@ -4,7 +4,6 @@
 
 img {
 	width: 150px;
-	animation-duration: 2s;
 	opacity: 0.8;
 }
 
@@ -14,6 +13,7 @@ footer {
 
 .container {
 	display: inline-flex;
+	width: 60%;
 }
 
 body {
@@ -37,6 +37,7 @@ h1 {
 	padding: 2px;
 	display: inline-block;
 	border-radius: 60px;
+	font-size: 29px;
 }
 
 tr {
@@ -66,4 +67,9 @@ tbody th, td {
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.foot {
+	color: rgb(110, 103, 88, 0.5);
+	letter-spacing: 15px;
 }
